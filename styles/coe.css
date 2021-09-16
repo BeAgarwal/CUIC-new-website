@@ -1,0 +1,140 @@
+.cards {
+	max-width: 1200px;
+	margin: 0;
+	display: grid;
+	grid-gap: 2rem;
+	padding-bottom: 5em;
+}
+
+.card {
+	/* background-color: #a94442; */
+	color: black;
+	padding: 1px;
+	border-radius: 8px;
+}
+
+.main-heading {
+	background-color: #962327;
+	color: white;
+	padding: 0.5em 0.5em;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-section {
+	width: 86%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-heading {
+	background-color: #303235;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
+
+.dataTable {
+	display: block;
+	width: 100%;
+	margin: 1em 0;
+}
+
+.dataTable thead,
+.dataTable tbody,
+.dataTable thead tr,
+.dataTable th {
+	display: block;
+}
+
+.dataTable thead {
+	float: left;
+}
+
+.dataTable tbody {
+	width: auto;
+	position: relative;
+	overflow-x: auto;
+}
+
+.dataTable td,
+.dataTable th {
+	padding: .625em;
+	line-height: 1.5em;
+	border-bottom: 1px dashed #ccc;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.dataTable th {
+	text-align: left;
+	background: rgba(0, 0, 0, 0.14);
+	border-bottom: 1px dashed #aaa;
+}
+
+.dataTable tbody tr {
+	display: table-cell;
+}
+
+.dataTable tbody td {
+	display: block;
+}
+
+.dataTable tr:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (min-width: 50em) {
+	.dataTable {
+		display: table;
+	}
+	.dataTable thead {
+		display: table-header-group;
+		float: none;
+	}
+	.dataTable tbody {
+		display: table-row-group;
+	}
+	.dataTable thead tr,
+	.dataTable tbody tr {
+		display: table-row;
+	}
+	.dataTable th,
+	.dataTable tbody td {
+		display: table-cell;
+	}
+	.dataTable td,
+	.dataTable th {
+		width: auto;
+	}
+	.second-sub-section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+	.footer {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f6f6f6;
+		color: black;
+		float: left;
+		padding-top: 2em;
+	}
+	@media (min-width: 600px) {
+		.cards {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+	@media (min-width: 900px) {
+		.cards {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
