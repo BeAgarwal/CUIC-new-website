@@ -1,5 +1,7 @@
+
+
 .cards {
-	max-width: 1200px;
+	/* max-width: 1200px; */
 	margin: 0;
 	display: grid;
 	grid-gap: 2rem;
@@ -26,9 +28,30 @@
 }
 
 .main-section {
-	width: 86%;
+	/* width: 86%; */
 	margin-left: auto;
 	margin-right: auto;
+  
+
+}
+
+
+
+
+@media (min-width: 768px) {
+  .main-section {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .main-section {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-section {
+    width: 1170px;
+  }
 }
 
 .card-heading {
