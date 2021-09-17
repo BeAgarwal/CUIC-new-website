@@ -66,6 +66,7 @@ img{
 }
 
 .red-underline {
+  text-align: left;
 	text-decoration: underline;
 	font-weight: bolder;
 	color: #962327;
@@ -140,6 +141,11 @@ img{
 	margin-left: 0;
 }
 
+@media (min-width: 200px) {
+	.second-sub-section {
+		grid-template-columns:min-content;
+	}
+}
 @media (min-width: 400px) {
 	.first-section {
 		grid-template-columns: repeat(1, 1fr);
