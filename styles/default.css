@@ -9105,7 +9105,7 @@ html[xmlns] .flexslider .slides {
 
 .parallax {
   background-image: url("../assets/images/cuic.jpg");
-  min-height: 700px;
+  min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -9959,7 +9959,7 @@ ul.links.inline .node-readmore a:focus {
 #main-menu .container ul.menu li > a {
   display: block;
   line-height: 21px;
-  padding: 12px 20px;
+  padding: 12px 15px;
   color: white;
   text-transform: uppercase;
   font-size: 1.076em;
