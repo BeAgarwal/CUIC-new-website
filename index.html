@@ -82,7 +82,7 @@
                             <div class="region block region-sidebar-second">
                                 <h2>Section</h2>
                                 <button id="dynamicbutton">Student</button>
-                                <button>Company</button>
+                                <button id="dynamicbutton2">Company</button>
                             </div>
                             <div id="modalbox" class="modal">
 
@@ -195,13 +195,16 @@
             var modal = document.getElementById("modalbox");
 
             var btn = document.getElementById("dynamicbutton");
+            var btn2 = document.getElementById("dynamicbutton2");
 
             var span = document.getElementsByClassName("close")[0];
 
             btn.onclick = function() {
                 modal.style.display = "block";
             }
-
+            btn2.onclick = function() {
+                modal.style.display = "block";
+            }
             span.onclick = function() {
                 modal.style.display = "none";
             }
