@@ -4,6 +4,8 @@
         <meta charset="utf-8" />
         <title>CUIC | Anna University</title>
         <link rel="stylesheet" href="styles/default.css" media="all" />
+        <link rel="stylesheet" href="styles/index.css" media="all" />
+
         <meta name="keywords" content="CEG, MIT, College of engineering guindy, Anna University, Chennai, Placement Cell, Training, TnP, CEG Guindy, ACT, SAP, madras insitute of technology, au, cuic, cuiccentre, cuiccenter, CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -75,6 +77,19 @@
                                         <marquee>Placement for 2021-22 has started from August 26, 2021.</marquee>
                                         <marquee><a href="https://www.annauniv.edu/CUICCentre/Questionnaire%20Form.pdf">Organizational Details for Campus Recruitment Process</a></marquee>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="region block region-sidebar-second">
+                                <h2>Section</h2>
+                                <button id="dynamicbutton">Student</button>
+                                <button>Company</button>
+                            </div>
+                            <div id="modalbox" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>Under Development. We are going to roll out this feature soon!!</p>
                                 </div>
                             </div>
                         </div>
@@ -176,5 +191,27 @@
             </footer>
         </div>
         <script src="jquery/script.js"></script>
+        <script>
+            var modal = document.getElementById("modalbox");
+
+            var btn = document.getElementById("dynamicbutton");
+
+            var span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
     </body>
 </html>
