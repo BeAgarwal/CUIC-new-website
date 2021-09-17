@@ -1,0 +1,11 @@
+#statisticsId {
+    background-color: brown;
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#statisticsId:hover {
+    background-color: grey;
+}
