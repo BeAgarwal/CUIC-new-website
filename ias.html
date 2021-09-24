@@ -3,59 +3,62 @@
     <head>
         <meta charset="utf-8" />
         <title>CUIC | Anna University</title>
-        <link rel="stylesheet" href="styles/default.css" media="all" />
+       
+        <link rel="stylesheet" href="styles/index.css" media="all" />
+        <link rel="stylesheet" href="styles/nav.css" media="all" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="HandheldFriendly" content="true" />
         <meta name="apple-touch-fullscreen" content="YES" />
     </head>
-    <body>
-        <img src="assets/images/backtotop.png" id="back-to-top">
-        <div class="page">
-            <a name="Top" id="Top"></a>
-            <header id="header" class="header" role="header">
-                <div class="container">
-                    <div class="region region-header">
-                        <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                            <div class="imgclm">
-                                <img alt="u" data-entity-type="file" data-entity-uuid="970582a7-2f42-495e-a7e6-1d59061398fb" src="assets/images/aulogo.png" style="height: 160px;" width="200" class="align-center" />
-                            </div>
-                            <div class="txtclm">
-                                <h1><strong>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION<br>
-                                    ANNA UNIVERSITY, CHENNAI - 600025</strong>
-                                </h1>
-                            </div>
-                        </div>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" id="click" data-target="#main-menu-inner">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                </div>
-            </header>
-            <nav id="main-menu" class="navbar navbar-default" role="navigation">
-                <div class="collapse navbar-collapse" id="main-menu-inner">
-                    <div class="container">
-                        <div class="region region-main-menu">
-                            <nav aria-labelledby="block-zircon-main-menu-menu" id="block-zircon-main-menu" class="block block-menu navigation menu--main">
-                                <ul class="menu">
-                                    <li class="menu-item "><a href="index.html" >HOME</a></li>
-                                    <li class="menu-item"><a href="placement.html">PLACEMENT</a></li>
-                                    <li class="menu-item"><a href="internship.html">INTERNSHIP</a></li>
-                                    <li class="menu-item"><a href="coe.html">COE</a></li>
-                                    <li class="menu-item menu-item--active-trail"><a href="ias.html" class="is-active">IAS</a></li>
-                                    <li class="menu-item"><a href="skilldevelopment.html">SKILL Development</a></li>
-                                    <li class="menu-item"><a href="downloads.html">DOWNLOADS</a></li>
-                                    <li class="menu-item"><a href="gallery.html">GALLERY</a></li>
-                                    <li class="menu-item"><a href="contactus.html">CONTACT US</a></li>
-                                    <li class="menu-item"><a href="https://www.annauniv.edu">AU Home</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+<body>
+
+    <!-- ----------------------- nav logo ------------------- -->
+
+
+
+    <div class="nav-container">
+        <div class="nav-left">
+            <img alt="u" data-entity-type="file" data-entity-uuid="970582a7-2f42-495e-a7e6-1d59061398fb" src="assets/images/aulogo.png" style="height: 160px;" width="200" class="align-center" />
+       </div>
+        <div class="nav-right">
+            <div class="txtclm">
+                <h1><strong>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION<br>
+                    ANNA UNIVERSITY, CHENNAI - 600025</strong>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!-- -------------------nav bar---------------->
+<div class="topnav" id="myTopnav">
+    <a href="index.html" >HOME</a>
+    <a href="placement.html">PLACEMENT</a>
+    <a href="internship.html">INTERNSHIP</a>
+    <div class="dropdown">
+      <button class="dropbtn">CSR FAcilitation
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="coe.html">CoE</a>
+        <a href="skilldevelopment.html">Skill Development</a>
+        <a href="scholarshop.html">Scholarship</a>
+        
+      </div>
+    </div> 
+    <a href="downloads.html">DOWNLOADS</a>
+    <a href="contactus.html">CONTACT US</a>
+    <a href="https://www.annauniv.edu">AU HOME</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+  <!-- ---------------nav bar ends here------------------- -->
+
             <section id="main" class="main" role="main">
                 <div class="container">
                     <div class="row">
@@ -95,5 +98,15 @@
             </footer>
         </div>
         <script src="jquery/script.js"></script>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
     </body>
 </html>
