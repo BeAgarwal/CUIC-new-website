@@ -1,3 +1,54 @@
+/* styling for first div with 3 sub div  */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-gap: 10px;
+  
+}
+.grid-child{
+  padding-top: 10px;
+  background-color:#595E61;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.grid-child h5{
+  text-align: center;
+  margin-left: 0px;
+
+}
+
+@media (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+a:link {
+  color: white;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: rgb(250, 73, 73);
+}
+
+
+
+
+
+
+
+/* end ----------------------- */
+
+
 .region-sidebar-second {
   /* padding-left: 11%; */
   margin-top: 2em;
