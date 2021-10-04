@@ -1,11 +1,68 @@
-#statisticsId {
+/* #statisticsId {
     background-color: brown;
-    width: 30%;
-    padding: 10px;
+    width: 80%;
+    padding: 1px 10px;
     font-size: 16px;
     border-radius: 10px;
+} */
+
+/* #statisticsId:hover {
+    background-color: grey;
+} */
+.page-section{
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#statisticsId:hover {
-    background-color: grey;
+ /* tbody td{
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+  } */
+  
+.aTable tbody tr:nth-child(odd){
+    background-color: white;
+    color: black;
+  }
+  .aTable {
+    width: 90%;
+    border-spacing: 2px;
+    text-align: center;
 }
+.aTable tr td{
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+  .bTable tbody tr:nth-child(odd){
+    background-color:#caf0fa;
+    color: black;
+  }
+  .bTable tbody tr:nth-child(even){
+    background-color: white;
+    color: black;
+  }
+  .bTable tr td{
+    border: 1px solid rgb(209, 209, 209);
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.bTable {
+    width: 100%;
+    
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 768px) 
+{
+  .tables
+    {
+      width: auto;
+       margin-left: -20px;
+       overflow-x: auto;
+    }
+   
+}
+
+

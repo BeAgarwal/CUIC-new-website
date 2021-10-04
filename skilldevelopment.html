@@ -1,353 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>CUIC | Anna University</title>
-        <link rel="stylesheet" href="styles/default.css" media="all" />
-        <link rel="stylesheet" href="styles/skill.css" media="all" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="apple-touch-fullscreen" content="YES" />
-    </head>
-    <body>
-        <img src="assets/images/backtotop.png" id="back-to-top">
-        <div class="page">
-            <header id="header" class="header">
-                <div class="container">
-                    <div class="region region-header">
-                        <div
-                            class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                            <div class="imgclm">
-                                <img alt="u" data-entity-type="file" data-entity-uuid="970582a7-2f42-495e-a7e6-1d59061398fb"
-                                    src="assets/images/aulogo.png" style="height: 160px;" width="200" class="align-center" />
-                            </div>
-                            <div class="txtclm">
-                                <h1><strong>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION<br>
-                                    ANNA UNIVERSITY, CHENNAI - 600025</strong>
-                                </h1>
-                            </div>
-                        </div>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-inner">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                </div>
-            </header>
-            <nav id="main-menu" class="navbar navbar-default">
-                <div class="collapse navbar-collapse" id="main-menu-inner">
-                    <div class="container">
-                        <div class="region region-main-menu">
-                            <nav class="block block-menu navigation menu--main">
-                                <ul class="menu">
-                                    <li class="menu-item "><a href="index.html" >HOME</a></li>
-                                    <li class="menu-item"><a href="placement.html">PLACEMENT</a></li>
-                                    <li class="menu-item"><a href="internship.html">INTERNSHIP</a></li>
-                                    <li class="menu-item "><a href="coe.html" >COE</a></li>
-                                    <li class="menu-item"><a href="ias.html">IAS</a></li>
-                                    <li class="menu-item menu-item--active-trail"><a href="skilldevelopment.html" class="is-active">SKILL Development</a></li>
-                                    <li class="menu-item"><a href="downloads.html">DOWNLOADS</a></li>
-                                    <li class="menu-item"><a href="gallery.html">GALLERY</a></li>
-                                    <li class="menu-item"><a href="contactus.html">CONTACT US</a></li>
-                                    <li class="menu-item"><a href="https://www.annauniv.edu">AU Home</a> </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CUIC | Anna University</title>
+    <link rel="stylesheet" href="styles/nav.css" media="all" />
+    <link rel="stylesheet" href="styles/skill.css" media="all" />
+    <link rel="stylesheet" href="styles/coe.css" media="all" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+</head>
+
+<body>
+    <!-- ----------------------- nav logo ------------------- -->
+
+
+
+    <div class="nav-container">
+        <div class="nav-left">
+            <img alt="u" data-entity-type="file" data-entity-uuid="970582a7-2f42-495e-a7e6-1d59061398fb"
+                src="assets/images/aulogo.png" style="height: 160px;" width="200" class="align-center" />
         </div>
-        <div class="text-center">
-            <h2 class="page-section__title" style="color: #9e1116;">Skill Development</h2>
-            
+        <div class="nav-right">
+            <div class="txtclm">
+                <h1><strong>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION<br>
+                        ANNA UNIVERSITY, CHENNAI - 600025</strong>
+                </h1>
+            </div>
         </div>
-        <div class="main-section">
-            <!-- first section starts here -->
-            <hr style="height:1px;border-width:0;color:gray;background-color:rgb(164, 164, 164)">
-            <div class="first-section" style="margin-bottom: 50px;">
-                <div class="first-sub-section" >
-                    <div>
+    </div>
+
+
+
+
+
+    <!-- -------------------nav bar---------------->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="placement.html">PLACEMENT</a>
+        <a href="internship.html">INTERNSHIP</a>
+        <div class="dropdown">
+            <button class="dropbtn">CSR FAcilitation
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="coe.html">CoE</a>
+                <a href="skilldevelopment.html" class="active menu-item--active-trail">Skill Development</a>
+                <a href="scholarship.html">Scholarship</a>
+
+            </div>
+        </div>
+        <a href="downloads.html">DOWNLOADS</a>
+        <a href="contactus.html">CONTACT US</a>
+        <a href="https://www.annauniv.edu">AU HOME</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- ---------------nav bar ends here------------------- -->
+    <div class="text-center">
+        <h2 class="page-section__title" style="color: #9e1116; text-align: center;">Skill Development</h2>
+        <hr style="height:1px;border-width:0;color:gray;background-color:rgb(164, 164, 164)">
+    </div>
+
+    <!-- first section starts here -->
+
+    <div class="first-section" style="margin-bottom: 50px;">
+        <div class="first-sub-section">
+            <div>
+                <ul style="list-style: none;">
+                    <li style="text-align: center;"><img src="./assets/images/skill/renault.png" width="100"></li>
+                    <li class="blue-strong">EMPLOYABILITY SKILL ENHANCEMENT PROGRAMME (E-SEP)</li>
+                    <li class="red-underline">Conducted in 5 zones</li>
+                    <li><b>Chennai, Trichy, Madurai, Coimbatore, Tirunelveli</b></li>
+                    <li class="red-underline">Beneficiaries</li>
+                    <li><b>Final year Students of Colleges affiliated to AU</b></li>
+                    <li><b>2017-18 | 2018-19</b></li>
+
+                </ul>
+            </div>
+            <div class="cards-one">
+                <div class="card"><img src="./assets/images/skill/renault/one.png" width="200"></div>
+                <div class="card"><img src="./assets/images/skill/renault/two.jpg" width="200"></div>
+                <div class="card"><img src="./assets/images/skill/renault/three.png" width="200"></div>
+                <div class="card"><img src="./assets/images/skill/renault/four.png" width="200"></div>
+            </div>
+        </div>
+        <div class="second-sub-main">
+            <div style="text-align: center; margin-top: 5px;">
+                <img src="./assets/images/skill/thirdware.png" width="100">
+            </div>
+            <div class="second-sub-section">
+                <div class="second-sub-sub-section">
+                    <!--sub section 1 -->
                     <ul style="list-style: none;">
-                        <li style="text-align: center;"><img src="./assets/images/skill/renault.png" width="100" ></li>
-                        <li class="blue-strong">EMPLOYABILITY SKILL ENHANCEMENT PROGRAMME (E-SEP)</li>
-                        <li class="red-underline">Conducted in  5 zones</li>
-                        <li><b>Chennai, Trichy, Madurai, Coimbatore, Tirunelveli</b></li>
+                        <li class="blue-strong">FUNCTIONAL & BEHAVIORAL SKILLS</li>
+                        <br />
+                        <li class="red-underline">Venue</li>
+                        <li><b>University College of Engineering Villupuram and Tindivanam</b>
+                        </li>
                         <li class="red-underline">Beneficiaries</li>
-                        <li><b>Final year Students of Colleges affiliated to AU</b></li>
-                        <li>2017-18  - 1011 students</li>
-                        <li>2018-19 - 1062 students
-                        <li>
+                        <li><b>2017-18</b>
+                        </li>
                     </ul>
-                    </div>
-                    <div class="cards-one" >
-                        <div class="card"><img src="./assets/images/skill/renault/one.png" width="500"></div>
-                        <div class="card"><img src="./assets/images/skill/renault/two.jpg"width="500"></div>
-                        <div class="card"><img src="./assets/images/skill/renault/three.png"width="500"></div>
-                        <div class="card"><img src="./assets/images/skill/renault/four.png"width="500"></div>
-                    </div>
                 </div>
-                <div class="second-sub-main">
-                    <div style="text-align: center; margin-top: 5px;">
-                        <img src="./assets/images/skill/thirdware.png" width="100" >
-                    </div>
-                    <div class="second-sub-section">
-                        <div class="second-sub-sub-section">
-                            <!--sub section 1 -->
-                            <ul style="list-style: none;">
-                                <li class="blue-strong">FUNCTIONAL & BEHAVIORAL SKILLS</li>
-                                <br/>
-                                <li class="red-underline">Venue</li>
-                                <li><b>University College of Engineering Villupuram and Tindivanam</b>
-                                </li>
-                                <li class="red-underline">Beneficiaries</li>
-                                <li><b>2017-18  - 206  final year CSE/IT students
-                                    </b>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="second-sub-sub-section">
-                            <!--sub section 2 -->
-                            <ul style="list-style: none;">
-                                <li class="blue-strong">NICHE SKILL DEVELOPMENT ON JAVA PROGRAMMING
-                                </li>
-                                <li class="red-underline">Venue</li>
-                                <li><b>University College of Engineering Kancheepuram</b>
-                                </li>
-                                <li class="red-underline">Beneficiaries</li>
-                                <li><b>2016-17  - 120 final year CSE/IT students</b>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <p class="blue-strong" 
-                            style="background-color: aliceblue; 
-                            padding: 1em; margin: 1em;color:#b3181d">
-                            Budget: 3.15 Lakh + 2.71 Lakh
-                        <p></p>
-                    </div>
-                    <div class="cards-two" style="margin-left: 1em; margin-right: 1em;">
-                        <div class="card"><img src="./assets/images/skill/thirdware/thirdware1.jpg" width="500"></div>
-                        <div class="card"><img src="./assets/images/skill/thirdware/thirdware2.jpg" width="500"></div>
-                    </div>
+                <div class="second-sub-sub-section">
+                    <!--sub section 2 -->
+                    <ul style="list-style: none;">
+                        <li class="blue-strong">NICHE SKILL DEVELOPMENT ON JAVA PROGRAMMING
+                        </li>
+                        <li class="red-underline">Venue</li>
+                        <li><b>University College of Engineering Kancheepuram</b>
+                        </li>
+                        <li class="red-underline">Beneficiaries</li>
+                        <li><b>2016-17 </b>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <!-- second section starts here -->
-            <div class="combinedsection" style="margin-bottom: 50px; ">
-                <div class="second-section" style="margin-bottom: 50px; padding: 1em; background-color: white;">
-                    <h1 class="main-heading heading">
-                        SKILL DEVELOPMENT THROUGH CSR
-                    </h1>
-                    <table class="dataTable">
-                        <tr>
-                            <td>
-                                <h3 class="sub-heading">EMPLOYABILITY SKILL BUILDING PROGRAMME (ESBP) </h3>
-                            </td>
-                            <td rowspan="2"><img src="./assets/images/skill/Titan.png"width></td>
-                        </tr>
-                        <tr >
-                            <td >
-                                    <p style="margin-left: 2em;"><b>Topics Covered :</b> Soft skills</p>
-                                    <p style="margin-left: 2em;"><strong> Duration:</strong> 2017-18, 2018-19, 2019-20 (3 years)</p>
-                                    <p style="margin-left: 2em;"><strong>Beneficiaries: Total: 4155 (2017-18:1682, 2018-19:1233,
-                                            2019-20:1240) UG students</strong> from Computerscience/ECE/EEE/Mechanical/
-                                            Civil Engineering <strong>students studying from 13 University Colleges of Engineering,
-                                            Anna University.</strong>
-                                     </p>
-                            </td>
-                        </tr>
-                    </table>
-                    <div class="cards-three" style="margin-left: 1em; margin-right: 1em;">
-                        <div class="card"><img src="./assets/images/skill/skill-one.jpg"></div>
-                        <div class="card"><img src="./assets/images/skill/skill-two.jpg"></div>
-                        <div class="card"><img src="./assets/images/skill/skill-three.jpg"></div>
-                        <div class="card"><img src="./assets/images/skill/skill-four.jpg"></div>
-                    </div>
-                </div>
-                <!-- third section starts here -->
-                <div class="first-section" style="margin-bottom: 50px;">
-                    <!--sub section 1 -->
-                    <div class="first-sub-section" >
-                        <ul style="list-style: none;">
-                            <li class="red-underline">Python Skills Training Programme
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Trained by: :</section>
-                                M/s. Guvi Geek Network Private Ltd. (an IT starter by IITM’s  Rural Technology and Business Incubator)
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Period:</section>
-                                13.02.2017 to 17.02.2017 </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Beneficiaries:</section>
-                                57 B.E./B.Tech  - CSE/IT 3rd year students of CEG / MIT campuses
-                                </p
-                            </li>
-                        </ul>
-                        <div class="cards-one">
-                            <div class="card"><img src="./assets/images/skill/Python-skill.jpg"></div>
-                        </div>
-                    </div>
-                    <!--sub section 2 -->
-                    <div class="first-sub-section" >
-                        <ul style="list-style: none;">
-                            <li class="red-underline">Advanced Level - Quality Improvement Programme (AQIP)  (2018) </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Trained by:</section>
-                                Subject Experts form AU & RNTBCI </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Beneficiaries:</section>
-                                60 final year UG  students (UD)
-                                Mechanical/ Automobile / Production /Manufacturing / Industrial Engineering
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Budget:</section>
-                                Rs. 10 Lakhs </p
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- fourth section starts here shubham-->
-                <div class="first-section" style="margin-bottom: 50px;  ">
-                    <!--sub section 1 -->
-                    <div class="first-sub-section" >
-                        <ul style="list-style: none;">
-                            <li class="red-underline">Three Days Faculty Development Programme
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Conducted by:</section>
-                                M/s Autodesk and CUIC
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">UCE -Villupuram:</section>
-                                20.12.2018-22.12.2018  
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">UCE- Nagercoil:</section>
-                                07.01.2019-09.01.2019
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">No. of colleges:</section>
-                                16 University Colleges
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Beneficiaries:</section>
-                                71 Faculty Members from Mechanical/EEE/ECE/CSE&IT stream
-                                </p
-                            </li>
-                        </ul>
-                        <div class="cards-one">
-                            <div class="card"><img src="./assets/images/skill/facultydev1.jpg"></div>
-                            <div class="card"><img src="./assets/images/skill/facultydev2.jpg"></div>
-                        </div>
-                    </div>
-                    <!--sub section 2 -->
-                    <div class="first-sub-section" >
-                        <ul style="list-style: none;">
-                            <li class="red-underline">Three Days Students Boot Camp  Programme
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Conducted by:</section>
-                                M/s Autodesk and CUIC
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">UCE -Villupuram:</section>
-                                15.02.2019-17.02.2019
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">UCE- Nagercoil:</section>
-                                15.03.2019-17.03.2019
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">No. of colleges:</section>
-                                13 University Colleges
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Beneficiaries:</section>
-                                Around 179 students from Mechanical/EEE/ECE stream
-                                </p
-                            </li>
-                        </ul>
-                        <div class="cards-one">
-                            <div class="card"><img src="./assets/images/skill/bootcamp1.jpg"></div>
-                            <div class="card"><img src="./assets/images/skill/bootcamp2.jpg"></div>
-                        </div>
-                    </div>
-                    <!-- shubham -->
-                </div>
-                <!-- fifth section starts here shubham-->
-                <div class="first-section" style="margin-bottom: 50px; ">
-                    <!--sub section 1 -->
-                    <div class="first-sub-section" >
-                        <ul style="list-style: none;">
-                            <li class="red-underline">One Day Faculty Development Programme (26 Faculty)
-                            </li>
-                            <div class="card"><img src="./assets/images/skill/autodesk.png" width="40%"></div>
-                            <li>
-                                <p>
-                                <section  class="blue">Conducted by:</section>
-                                M/s Autodesk and CUIC
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">University Departments of Anna University </section>
-                                27.05.2019 AU-FRG Institute for CAD/CAM  
-                                </p
-                            </li>
-                            <li>
-                                <p>
-                                <section  class="blue">Beneficiaries:</section>
-                                26 Faculty Members from Mechanical stream, CEG Campus
-                                </p
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!--sub section 2 -->
-                <div class="first-sub-section" style="background-color: transparent;">
-                </div>
-                <!-- shubham -->
+            <div class="card">
+                <p class="blue-strong" style="background-color: aliceblue; 
+                            padding: 1em; margin: 1em;color:#b3181d">
+
+                <p></p>
+            </div>
+            <div class="cards-two" style="margin-left: 1em; margin-right: 1em;">
+                <div class="card"><img src="./assets/images/skill/thirdware/thirdware1.jpg" width="250"></div>
+                <div class="card"><img src="./assets/images/skill/thirdware/thirdware2.jpg" width="250"></div>
             </div>
         </div>
-        
-        <footer id="footer" class="footer" role="contentinfo">
-            <div class="container">
-                <div class="region region-footer">
-                    <h5><strong>Copyright © 2021  Centre for University-Industry Collaboration</strong></h5>
-                </div>
+    </div>
+    <!-- second section starts here -->
+    <div class="second-main-section" style="margin-bottom: 50px; ">
+        <h1 class="main-heading heading">OUTCOMES FROM CoEs and INNOVATION LABS
+        </h1>
+        <div class="first-sub-section" style="padding: 10px 10px;">
+            <h1 class="main-heading heading" style="background-color: #303235 ;">AU- MITSUBISHI CENTRE OF EXCELLENCE
+                (CoE) ON FACTORY AUTOMATION</h1>
+            <table class="dataTable">
+                <tr>
+                    <th>SI.no</th>
+                    <th>Name of the Programme</th>
+                    <th>No.of Participants</th>
+                    <th>Dates
+                    </th>
+                </tr>
+                <tr>
+                    <td data-th="Movie Title">1.</td>
+                    <td data-th="Genre">Three days on PLC and HMI Programming for
+                        Internal Staff members
+                    </td>
+                    <td data-th="Year">8</td>
+                    <td data-th="Gross">6,7& 8 May 2019</td>
+                </tr>
+                <tr>
+                    <td data-th="Movie Title">2.</td>
+                    <td data-th="Genre">Two Days Workshop on PLC and HMI for affiliated College Staff members
+                    </td>
+                    <td data-th="Year">12</td>
+                    <td data-th="Gross">10th & 11 June 2019
+                    </td>
+                </tr>
+                <tr>
+                    <td data-th="Movie Title">3.</td>
+                    <td data-th="Genre">Two Days Workshop on PLC and HMI Programming for Internal Students
+                    </td>
+                    <td data-th="Year">50</td>
+                    <td data-th="Gross">20th & 21st May 2019
+                    </td>
+                </tr>
+                <tr>
+                    <td data-th="Movie Title">4.</td>
+                    <td data-th="Genre">Two Days Workshop on PLC and HMI Programming for Affiliated College Students
+                    </td>
+                    <td data-th="Year">24</td>
+                    <td data-th="Gross">12th & 13th June 2019
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="second-sub-section" style="padding: 10px 10px;">
+            <div class="second-sub-sub-section" style="background-color: #f8d7d8 ; padding-bottom: 30px;">
+                <h1 class="main-heading heading" style="background-color: #303235 ;">AU-COGNIZANT – DATA SECURITY LAB
+                </h1>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./assets/images/workshop.png" width="200">
+                        </td>
+                        <td>
+                            <ul style="list-style: disc;">
+                                <h3><b>Research Scholars (2016-2021)</b></h3>
+                                <li>Mr.S.Sreenivasan</li>
+                                <li>Archana</li>
+                                <li>N.A. Bharathi</li>
+                                <li>K. Kiruthika</li>
+                                <li>M.Ashokkumar</li>
+                                <li>M.Meignanamoorthi</li>
+                                <li>S.Prabhakar</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="color: blue; font-weight: bolder; padding-left: 2em;">International Conference: 05
+                        </td>
+                    </tr>
+                </table>
             </div>
-        </footer>
-        <script src="jquery/script.js"></script>
-    </body>
+            <div class="second-sub-sub-section" style="background-color: #f8d7d8;">
+                <h1 class="main-heading heading" style="background-color: #303235 ;">
+                    AU-TEMENOS – FINTECH LAB
+                </h1>
+                <table>
+                    <tr>
+                        <td style="padding-left: 2em;">
+                            <img src="./assets/images/scholarship.png" width="150">
+                        </td>
+                        <td>
+                            <ul style="list-style: none; word-wrap: break-word;">
+                                <h3><b>2019-22: (for 3 years)
+                                    </b>
+                                </h3>
+                                <li style="color: blue; font-weight: bolder;">Scholarship Amount: 30K
+                                </li>
+                                <li style="color: rgb(255, 76, 44); font-weight: bolder;">No. of Beneficiaries: 46 UG
+                                    Students
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="region region-footer">
+                <h5><strong>Copyright © 2021 Centre for University-Industry Collaboration</strong></h5>
+            </div>
+        </div>
+    </footer>
+    <script src="jquery/script.js"></script>
+</body>
+
 </html>

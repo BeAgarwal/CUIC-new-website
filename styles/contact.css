@@ -1,0 +1,45 @@
+.address-container{
+display: flex;
+flex-direction: row;
+margin-top: 2em;
+margin-bottom: 2em;
+text-align: center;
+  box-shadow: 5px 10px 10px #888888;
+    
+   
+  }
+.address-left{
+    background-color: #f1f1f1;
+    flex: 50%;
+    padding-top: 2em;
+   
+    
+}
+.address-left  p{
+    text-align: center;
+}
+.address-right p{
+    text-align: center;
+    
+}
+a{
+  text-decoration: none;
+}
+
+.address-right {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+    align-items: center;
+    padding-top: 3em;
+    
+    
+  }
+  
+
+  
+  @media (max-width: 800px) {
+    .address-container {
+      flex-direction: column;
+    }
+  }

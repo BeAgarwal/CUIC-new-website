@@ -1,0 +1,70 @@
+
+
+a{
+    text-decoration: none;
+    padding: 50px;
+}
+
+.row {
+    text-align: center;
+    padding: 15px; 
+    width: 100%;
+  
+  }
+
+  .left {
+   
+    display: inline-block;
+    max-width:100%;
+    text-align: left;
+    padding: 15px;
+    background-color: #ddd;
+    border-radius: 3px;
+    vertical-align: top;
+    margin: 20px;
+   
+    
+  }
+  .right {
+    display: inline-block;
+    max-width: 100%;
+    text-align: centre;
+    background-color: #ddd;
+    padding: 15px; 
+    margin: 20px;
+    
+   
+  }
+
+
+
+
+  @media screen and (max-width: 768px) 
+  {
+    .left, .right
+      {
+         width: 100%;
+         margin-left: -20px;
+         overflow-x:auto;
+      }
+     
+  }
+
+
+
+tbody tr{
+    background-color: white;
+    color: black;
+    
+  }
+  .tbl {
+    width: 100%;
+    border-spacing: 2px;
+    text-align: center;
+}
+.tbl tr td{
+    padding: 10px;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+

@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>CUIC | Anna University</title>
-        <link rel="stylesheet" href="styles/default.css" media="all" />
-        <link rel="stylesheet" href="styles/coe.css" media="all" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="apple-touch-fullscreen" content="YES" />
-    </head>
-    <!-- body starts here -->
-    <body>
-        <img src="assets/images/backtotop.png" id="back-to-top">
-        <div class="page">
-            <header id="header" class="header">
-                <div class="container">
-                    <div class="region region-header">
-                        <div
-                            class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-                            <div class="imgclm">
-                                <img alt="u" data-entity-type="file" data-entity-uuid="970582a7-2f42-495e-a7e6-1d59061398fb"
-                                    src="assets/images/aulogo.png" style="height: 160px;" width="200" class="align-center" />
-                            </div>
-                            <div class="txtclm">
-                                <h1><strong>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION<br>
-                                    ANNA UNIVERSITY, CHENNAI - 600025</strong>
-                                </h1>
-                            </div>
-                        </div>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-inner">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                </div>
-            </header>
-            <nav id="main-menu" class="navbar navbar-default">
-                <div class="collapse navbar-collapse" id="main-menu-inner">
-                    <div class="container">
-                        <div class="region region-main-menu">
-                            <nav class="block block-menu navigation menu--main">
-                                <ul class="menu">
-                                    <li class="menu-item "><a href="index.html" >HOME</a></li>
-                                    <li class="menu-item"><a href="placement.html">PLACEMENT</a></li>
-                                    <li class="menu-item"><a href="internship.html">INTERNSHIP</a></li>
-                                    <li class="menu-item menu-item--active-trail"><a href="coe.html" class="is-active">COE</a></li>
-                                    <li class="menu-item"><a href="ias.html">IAS</a></li>
-                                    <li class="menu-item"><a href="skilldevelopment.html">SKILL Development</a></li>
-                                    <li class="menu-item"><a href="downloads.html">DOWNLOADS</a></li>
-                                    <li class="menu-item"><a href="gallery.html">GALLERY</a></li>
-                                    <li class="menu-item"><a href="contactus.html">CONTACT US</a></li>
-                                    <li class="menu-item"><a href="https://www.annauniv.edu">AU Home</a> </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CUIC | Anna University</title>
+
+    <link rel="stylesheet" href="styles/coe.css" media="all" />
+    <link rel="stylesheet" href="styles/nav.css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+</head>
+<!-- body starts here -->
+
+<body>
+    <!-- ----------------------- nav logo ------------------- -->
+
+
+
+    <div class="nav-container">
+        <div class="nav-left">
+            <img alt="u" data-entity-type="file" data-entity-uuid="970582a7-2f42-495e-a7e6-1d59061398fb"
+                src="assets/images/aulogo.png" style="height: 160px;" width="200" class="align-center" />
         </div>
-        <!-- main body starts here            -->
-        <div class="main-body">
-        <div class="">
+        <div class="nav-right">
+            <div class="txtclm">
+                <h1><strong>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION<br>
+                        ANNA UNIVERSITY, CHENNAI - 600025</strong>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- -------------------nav bar---------------->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="placement.html">PLACEMENT</a>
+        <a href="internship.html">INTERNSHIP</a>
+        <div class="dropdown">
+            <button class="dropbtn">CSR FAcilitation
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="coe.html" class="active menu-item--active-trail">CoE</a>
+                <a href="skilldevelopment.html">Skill Development</a>
+                <a href="scholarship.html">Scholarship</a>
+
+            </div>
+        </div>
+        <a href="downloads.html">DOWNLOADS</a>
+        <a href="contactus.html">CONTACT US</a>
+        <a href="https://www.annauniv.edu">AU HOME</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- ---------------nav bar ends here------------------- -->
+
+    <!-- main body starts here            -->
+
+    <div class="main-body">
+        <div class="heading ">
             <div class="text-center">
-                <h2 class="page-section__title" style="color: #9e1116;">
+                <h2 class="page-section__title" style="color: #9e1116; text-align: center;">
                     Centre of Excellence(CoE)
                 </h2>
             </div>
@@ -73,171 +77,95 @@
                 interest are identified by CUIC. Establishment of centre of
                 excellence by the industries is facilitated by CUIC.
             </p>
-          
+            <hr style="height:1px;border-width:0;color:gray;background-color:rgb(164, 164, 164)"><br />
+
         </div>
         <!-- main pdf content starts here -->
-        <div class="main-section">
+
         <!-- first section content starts here -->
-        <div class="first-main-section" >
-          <hr style="height:1px;border-width:0;color:gray;background-color:rgb(164, 164, 164)"><br/>
-            <h2 class="main-heading heading">INDUSTRY SPONSORED CoEs and INNOVATION LABS</h2>
-            <div class="cards">
-                <div style="background-color: bisque;border-radius: 10px;">
-                    <div class="card">
-                        <h3 class="card-heading">DATA SECURITY LAB<br /> (2015-20)</h3>
-                        <ul style="list-style-type:none;">
-                            <li><img src="./assets/images/cognizant/1.png" width="200" height="100"></li>
-                            <br>
-                            <li></li>
-                            <b>Located in: </b></li>
-                            <li>Department of Information Science & Technology, CEG</li>
-                            <br/>
-                        </ul>
-                    </div>
-                    <div class="card"><img src="./assets/images/cognizant/2.png" width="500"></div>
-                    <div class="card"><img src="./assets/images/cognizant/3.png" width="500"></div>
-                </div>
-                <div style="background-color:rgb(224, 239, 252);border-radius: 10px;">
-                    <div class="card" style="height: 25rem;">
-                        <h3 class="card-heading">CoE on FACTORY AUTOMATION <br />(2018-19)</h3>
-                        <ul style="list-style-type:none;">
-                            <li><img src="./assets/images/mitsubishi/mitsuishi.png" width="200" height="300"></li>
-                            <br>
-                            <li></li>
-                            <b>Located in: </b></li>
-                            <li>Department of Instrumentation Engineering, MIT
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card"><img src="./assets/images/mitsubishi/2.png" width="500"></div>
-                    <div class="card"><img src="./assets/images/mitsubishi/3.png" width="500"></div>
-                </div>
-                <div style="background-color: bisque;border-radius: 10px;">
-                    <div class="card" style="height: 25rem;">
-                        <h3 class="card-heading">FINTECH LAB <br />(2019-21)
-                        </h3>
-                        <ul style="list-style-type:none;">
-                            <li><img src="./assets/images/temenos/1.png" width="200" height="100"></li>
-                            <br/>
-                            <li></li>
-                            <b>Located in: </b></li>
-                            <li>Department of Instrumentation Engineering, MIT
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card"><img src="./assets/images/temenos/2.png" width="500"></div><br/>
-                    <div class="card"><img src="./assets/images/temenos/3.png" width="500"></div>
-                </div>
-            </div>
-        </div>
-        <!-- Second section content starts here -->
-        <div class="second-main-section" style="margin-bottom: 50px; background-color: rgb(247, 235, 230);" >
-        <h1 class="main-heading heading">OUTCOMES FROM CoEs and INNOVATION LABS  
-        </h1>
-        <div class="first-sub-section" style="padding: 10px 10px;">
-            <h1 class="main-heading heading" style="background-color: #303235 ;">AU- MITSUBISHI CENTRE OF EXCELLENCE (CoE) ON FACTORY AUTOMATION</h1>
-            <table class="dataTable">
-                <tr>
-                    <th>SI.no</th>
-                    <th>Name of the Programme</th>
-                    <th>No.of Participants</th>
-                    <th>Dates
-                    </th>
-                </tr>
-                <tr>
-                    <td data-th="Movie Title">1.</td>
-                    <td data-th="Genre">Three days on PLC and HMI Programming for 
-                        Internal Staff members
-                    </td>
-                    <td data-th="Year">8</td>
-                    <td data-th="Gross">6,7& 8 May 2019</td>
-                </tr>
-                <tr>
-                    <td data-th="Movie Title">2.</td>
-                    <td data-th="Genre">Two Days Workshop on PLC and  HMI for affiliated College Staff members
-                    </td>
-                    <td data-th="Year">12</td>
-                    <td data-th="Gross">10th & 11 June 2019
-                    </td>
-                </tr>
-                <tr>
-                    <td data-th="Movie Title">3.</td>
-                    <td data-th="Genre">Two Days Workshop on PLC and HMI Programming for Internal Students
-                    </td>
-                    <td data-th="Year">50</td>
-                    <td data-th="Gross">20th & 21st May 2019
-                    </td>
-                </tr>
-                <tr>
-                    <td data-th="Movie Title">4.</td>
-                    <td data-th="Genre">Two Days Workshop on PLC and HMI Programming for Affiliated College Students
-                    </td>
-                    <td data-th="Year">24</td>
-                    <td data-th="Gross">12th & 13th June 2019
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="second-sub-section" style="padding: 10px 10px;">
-            <div class="second-sub-sub-section" style="background-color: #f8d7d8 ; padding-bottom: 30px;" >
-                <h1 class="main-heading heading" style="background-color: #303235 ;">AU-COGNIZANT – DATA SECURITY LAB
-                </h1>
-                <table>
-                    <tr>
-                        <td>
-                            <img src="./assets/images/workshop.png" width="200">
-                        </td>
-                        <td>
-                            <ul style="list-style: disc;">
-                                <h3><b>Research Scholars (2016-2021)</b></h3>
-                                <li>Mr.S.Sreenivasan</li>
-                                <li>Archana</li>
-                                <li>N.A. Bharathi</li>
-                                <li>K. Kiruthika</li>
-                                <li>M.Ashokkumar</li>
-                                <li>M.Meignanamoorthi</li>
-                                <li>S.Prabhakar</li>
+        <center>
+            <div class="first-main-section">
+
+                <h2 class="main-heading heading">INDUSTRY SPONSORED CoEs and INNOVATION LABS</h2>
+                <div class="cards">
+                    <div style="background-color: bisque;border-radius: 10px;">
+                        <div class="card" style="height: 15rem;">
+                            <h3 class="card-heading">DATA SECURITY LAB<br /> (2015-20)</h3>
+                            <ul style="list-style-type:none;">
+                                <li><img src="./assets/images/cognizant/1.png" width="200" height="50px"></li>
+                                <br>
+                                <li></li>
+                                <b><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> </b></li>
+                                <li>Department of Information Science & Technology, CEG</li>
+
                             </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td  style="color: blue; font-weight: bolder; padding-left: 2em;">International Conference: 05
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="second-sub-sub-section" style="background-color: #f8d7d8;">
-                <h1 class="main-heading heading" style="background-color: #303235 ;">
-                    AU-TEMENOS – FINTECH LAB
-                </h1>
-                <table>
-                    <tr>
-                        <td style="padding-left: 2em;">
-                            <img src="./assets/images/scholarship.png" width="150">
-                        </td>
-                        <td>
-                            <ul style="list-style: none; word-wrap: break-word;">
-                                <h3><b>2019-22: (for 3 years)
-                                    </b>
-                                </h3>
-                                <li style="color: blue; font-weight: bolder;">Scholarship Amount: 30K
+                        </div>
+                        <div class="card card-img"><img src="./assets/images/cognizant/2.png" width="300"></div>
+                        <div class="card card-img"><img src="./assets/images/cognizant/3.png" width="300"></div>
+                    </div>
+                    <div style="background-color:rgb(224, 239, 252);border-radius: 10px;">
+                        <div class="card" style="height: 15rem;">
+                            <h3 class="card-heading">CoE on FACTORY AUTOMATION <br />(2018-19)</h3>
+                            <ul style="list-style-type:none;">
+                                <li><img src="./assets/images/mitsubishi/mitsuishi.png" width="200" height="50px">
                                 </li>
-                                <li style="color: rgb(255, 76, 44); font-weight: bolder;">No. of Beneficiaries: 46 UG Students
+                                <br>
+                                <li></li>
+                                <b><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> </b></li>
+                                <li>Department of Instrumentation Engineering, MIT
                                 </li>
                             </ul>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <!-- second main section ends --> 
-        <footer class="footer">
-            <div class="container">
-                <div class="region region-footer">
-                    <h5><strong style="color: gray;">Copyright © 2021  Centre for University-Industry Collaboration</strong></h5>
+                        </div>
+                        <div class="card card-img"><img src="./assets/images/mitsubishi/2.png" width="320"></div>
+                        <div class="card card-img"><img src="./assets/images/mitsubishi/3.png" width="300"></div>
+                    </div>
+                    <div style="background-color: bisque;border-radius: 10px;">
+                        <div class="card" style="height: 15rem;">
+                            <h3 class="card-heading">FINTECH LAB <br />(2019-21)
+                            </h3>
+                            <ul style="list-style-type:none;">
+                                <li><img src="./assets/images/temenos/1.png" width="200" height="50px"></li>
+                                <br />
+                                <li></li>
+                                <b><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> </b></li>
+                                <li>Department of Instrumentation Engineering, MIT
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card card-img"><img src="./assets/images/temenos/2.png" width="300"></div><br />
+                        <div class="card card-img"><img src="./assets/images/temenos/3.png" width="300"></div>
+                    </div>
                 </div>
             </div>
-        </footer>
-    </body>
+
+    </div>
+    </center>
+    </div>
+
+
+
+    <!-- second main section ends -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="region region-footer">
+                <h5><strong>Copyright © 2021 Centre for University-Industry Collaboration</strong>
+                </h5>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
 </html>
