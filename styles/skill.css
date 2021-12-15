@@ -14,7 +14,7 @@ img{
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-gap: 20px;
-	/* width: 84%; */
+	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 10px;
@@ -87,13 +87,11 @@ img{
 }
 
 .cards-one {
-	/* max-width: 1200px; */
 	padding: 0 30px;
 	display: grid;
 }
 
 .cards-two {
-	/* max-width: 1200px; */
 	display: grid;
 }
 
