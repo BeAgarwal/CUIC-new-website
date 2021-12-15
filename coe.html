@@ -6,10 +6,10 @@
     <title>CUIC | Anna University</title>
 
     <link rel="stylesheet" href="styles/coe.css" media="all" />
-    <link rel="stylesheet" href="styles/nav.css" media="all" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/placement.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="apple-touch-fullscreen" content="YES" />
@@ -18,48 +18,186 @@
 
 <body>
     <!-- ----------------------- nav logo ------------------- -->
-
-
-
-    <div class="nav-container">
-        <div class="nav-left">
-            <img alt="u" data-entity-type="file" data-entity-uuid="970582a7-2f42-495e-a7e6-1d59061398fb"
-                src="assets/images/aulogo.png" style="height: 160px;" width="200" class="align-center" />
+    <div class="logo-header">
+        <div id="logo-header-left">
+            <img src="./assets/images/aulogo.png" alt="" srcset="" height="160px">
         </div>
-        <div class="nav-right">
-            <div class="txtclm">
-                <h1><strong>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION<br>
-                        ANNA UNIVERSITY, CHENNAI - 600025</strong>
-                </h1>
-            </div>
+        <div id="logo-header-between">
+            <strong>
+                <p>CENTRE FOR UNIVERSITY - INDUSTRY COLLABORATION <br>
+                    ANNA UNIVERSITY, CHENNAI - 600025</p>
+            </strong>
+        </div>
+        <div class="logo-header-right">
+            <a href="">AU Home</a>
         </div>
     </div>
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+            <div class="logo-container">
+                <img src="./assets/images/logo_new.png" alt="" srcset="" height="50px">
+            </div>
 
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul class="getspace">
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-link" style="--i: .7s">
+                            <a href="placement.html">PLACEMENT</a>
+                        </li>
+                        <li class="nav-link" style="--i: .7s">
+                            <a href="internship.html">INTERNSHIP</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="skilldevelopment.html">SKILL DEVELOPMENT<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">FUNCTIONAL SKILLS<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="generic.htm">GENERIC SKILLS</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">NICHE SKILLS</a>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">BEHAVIOR SKILLS</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="career_guidance.html">CAREER GUIDANCE</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">COMPETENCY BUILDING<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">RECENT ACTIVITIES</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">INDUSTRY<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="csr.htm">CSR ACTIVITIES<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">PARTNERING AGENCY</a>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="ias.html">IAS</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="coe.html">CoE</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">INNOVVATION LABS</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="awards.htm">AWARDS/RECOGNITION</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="contactus.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-
-
-
-    <!-- -------------------nav bar---------------->
-    <div class="topnav" id="myTopnav">
-        <a href="index.html">HOME</a>
-        <a href="placement.html">PLACEMENT</a>
-        <a href="internship.html">INTERNSHIP</a>
-        <div class="dropdown">
-            <button class="dropbtn">CSR FAILITATION
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="coe.html" class="active menu-item--active-trail">CoE</a>
-                <a href="skilldevelopment.html">Skill Development</a>
-                <a href="scholarship.html">Scholarship</a>
-
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
             </div>
         </div>
-        <a href="downloads.html">DOWNLOADS</a>
-        <a href="contactus.html">CONTACT US</a>
-        <a href="https://www.annauniv.edu">AU HOME</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
+    </header>
+
+
+
+    <section id="main" class="main" role="main">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <section class="steps">
+                        <div class="page-section">
+                            <div class=" text-center">
+                                <h2 class="page-section__title" style="color: #9e1116;text-align: center;">
+                                    Setting-up of Centre of Excellence
+                                </h2>
+                                <hr style="height:1px;border-width:0;color:gray;background-color:rgb(164, 164, 164)">
+                                <br />
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!-- Placement Staticstic -->
+
+                    <section>
+                        <div class="page-section"
+                            style="background-color: rgb(235, 235, 235);border-radius: 5px; padding-top:20px;">
+                            <div class="tables" align="center">
+                                <table class="aTable" width="80%">
+                                    <tr style="background-color:rgb(245, 157, 141)">
+                                        <th>Year</th>
+                                        <th>Name of the Company</th>
+                                        <th>Centre of Excellence</th>
+                                        <th>Located</th>
+                                        <th>Budget</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2018-19</td>
+                                        <td>Mitsubishi Electric India Pvt. Ltd.</td>
+                                        <td>Establish CoE in Factory Automation, </td>
+                                        <td>Department of the Instrumentation Engineering, MIT</td>
+                                        <td>Rs.1 Crore</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">2019-20</td>
+                                        <td>Temenos India Private Limited</td>
+                                        <td>FINTECH Innovation Lab</td>
+                                        <td>Department of Computer Science & Engineering, CEG</td>
+                                        <td>Rs. 35.00 Lakhs</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Autodesk India Private Limited</td>
+                                        <td>Autodesk Design Lab</td>
+                                        <td>CEG /MIT</td>
+                                        <td>Rs. 13.7 Crores</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ---------------nav bar ends here------------------- -->
 
@@ -67,7 +205,7 @@
 
     <div class="main-body">
         <div class="heading ">
-            <div class="text-center">
+            <div class="text-center" style="margin-top: 2rem;">
                 <h2 class="page-section__title" style="color: #9e1116; text-align: center;">
                     Centre of Excellence(CoE)
                 </h2>
@@ -77,18 +215,18 @@
                 interest are identified by CUIC. Establishment of centre of
                 excellence by the industries is facilitated by CUIC.
             </p>
-            <hr style="height:1px;border-width:0;color:gray;background-color:rgb(164, 164, 164)"><br />
+
 
         </div>
         <!-- main pdf content starts here -->
 
         <!-- first section content starts here -->
-        <center>
+        <center style="width: 95%;margin-left:auto;margin-right:auto;margin-top:2rem">
             <div class="first-main-section">
 
                 <h2 class="main-heading heading">INDUSTRY SPONSORED CoEs and INNOVATION LABS</h2>
-                <div class="cards">
-                    <div style="background-color: bisque;border-radius: 10px;">
+                <div class="cards" style="margin-top:2rem">
+                    <div style="background-color: bisque;border-radius: 10px; ">
                         <div class="card" style="height: 15rem;">
                             <h3 class="card-heading">DATA SECURITY LAB<br /> (2015-20)</h3>
                             <ul style="list-style-type:none;">

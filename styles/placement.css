@@ -1,37 +1,28 @@
-/* #statisticsId {
-    background-color: brown;
-    width: 80%;
-    padding: 1px 10px;
-    font-size: 16px;
-    border-radius: 10px;
-} */
 
-/* #statisticsId:hover {
-    background-color: grey;
-} */
 .page-section{
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 15px;
 }
 
- /* tbody td{
-    padding: 10px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
-  } */
-  
 .aTable tbody tr:nth-child(odd){
     background-color: white;
     color: black;
+    margin-bottom: 10px;
   }
   .aTable {
-    width: 90%;
+    width: 95%;
     border-spacing: 2px;
     text-align: center;
 }
 .aTable tr td{
     padding: 5px;
+    
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.aTable tr{
+  border: 2px solid black !important;
 }
 
   .bTable tbody tr:nth-child(odd){
@@ -44,16 +35,19 @@
   }
   .bTable tr td{
     border: 1px solid rgb(209, 209, 209);
+    border: 1px solid black;
     padding: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .bTable {
     width: 100%;
-    
-    text-align: center;
-    
+    text-align: center;  
 }
 
+.main{
+  margin: auto;
+  margin-top: 2rem;
+}
 @media screen and (max-width: 768px) 
 {
   .tables

@@ -23,12 +23,14 @@
 
 .auto-slider{
     position: relative;
+    width: 75%;
     box-sizing: content-box;
     display: inline-block;
     padding: 10px 10px 20px;
     background: #fff;
     max-height: 600px;
-    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
     overflow: hidden;
     border-radius: 4px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
