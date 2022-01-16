@@ -1,143 +1,153 @@
-
 .grid-container {
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  margin-top: 2em;
-}
-.grid-child{
-  max-width: 20%;
-  padding-top: 10px;
-  border: solid red 1px;
-  background-color: rgb(245, 225, 225);
-  color: black;
-  border-radius: 5px;
-  text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2em;
 }
 
+.grid-child {
+    width: 25%;
+    padding-top: 10px;
+    border: solid red 1px;
+    background-color: rgb(245, 225, 225);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
 
-.grid-child h5{
-  text-align: center;
-  margin-left: 0px;
-
+.grid-child h5 {
+    text-align: center;
 }
 
 @media (max-width: 700px) {
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
-
-
 a.links:link {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
 
-} 
- a.links:visited{
-  color:black;
+a.links:visited {
+    color: black;
 }
 
 
 /* mouse over link */
+
 a.links:hover {
-  color: rgb(250, 73, 73);
-  
-  cursor: pointer;
+    color: rgb(250, 73, 73);
+    cursor: pointer;
 }
 
-
-
-.upper-AU-Home{
-  float: right;
+.upper-AU-Home {
+    float: right;
 }
 
-.upper-AU-Home a{
-  text-decoration: none;
+.upper-AU-Home a {
+    text-decoration: none;
 }
-
 
 
 /* end ----------------------- */
 
-
 .region-sidebar-second {
-  /* padding-left: 11%; */
-  margin-top: 2em;
+    /* padding-left: 11%; */
+    margin-top: 2em;
 }
+
 .region-sidebar-second button {
-  width: 100%;
-  border-radius: 1em;
-  margin-bottom: 10px;
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 10px;
 }
+
 .region-sidebar-second button:hover {
-  background-color: brown;
-  color: white;
+    background-color: brown;
+    color: white;
 }
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
+
 
 /* Modal Content/Box */
+
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
 }
 
+
 /* The Close Button */
+
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
+
 
 /* last div css */
+
+
 /*  SECTIONS  */
+
 .section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  grid-gap: 9px;
-  grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 9px;
+    grid-gap: 10px;
 }
+
 
 /*  COLUMN SETUP  */
+
 .col {
-  text-align: center;
-  border-radius: 8px; 
-  height: 420px;
-	padding-top: 10px;
-  background-color:#383838;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
+    text-align: center;
+    border-radius: 8px;
+    height: 420px;
+    padding-top: 10px;
+    background-color: #383838;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
 }
 
-td{
-  border-top:red solid 1px;
-  padding: 7px 0px;
+td {
+    border-top: red solid 1px;
+    padding: 7px 0px;
 }
-
-
-
-
