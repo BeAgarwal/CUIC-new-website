@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -26,6 +26,7 @@ a{
 }
 
 header{
+    width: 98%;
     margin: 0 auto;
     background-color: #333333;
     z-index: 1000;
@@ -33,6 +34,7 @@ header{
 }
 
 .logo-header{
+    width: 98%;
     margin: auto;
     margin-top: 10px;
     display: flex;
@@ -311,6 +313,9 @@ header{
     transform: translateY(0) rotate(45deg);
 }
 
+
+
+
 @keyframes animation{
     from{
         opacity: 0;
@@ -322,7 +327,7 @@ header{
     }
 }
 
-@media (max-width: 1436px){
+@media (max-width: 1150px){
     body{
         width: 100%;
     }
