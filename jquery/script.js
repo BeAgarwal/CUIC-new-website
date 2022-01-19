@@ -1,5 +1,15 @@
 
+// Gallary Queary 
+const filterItem=document.querySelector(".items");
+const filterImg=document.querySelectorAll(".image");
 
+window.onload=()=>{
+  filterItem.onclick=(selectedItem)=>{ 
+   if(selectedItem.target.classList.contains("item")){
+
+   }
+ }
+}
 //Back to top button
 //==================
 
