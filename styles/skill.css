@@ -1,217 +1,206 @@
-/* body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  width: 80%;
-} */
-img{
-	margin-left: auto;
-	margin-right: auto;
+img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .first-section {
-	
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-gap: 20px;
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 10px;
-
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    border-radius: 10px;
 }
 
 .first-sub-section {
-	border-radius: 10px;
-	padding-right: 0em;
-	margin-left: 0px;
-	padding-top: 1em;
-  background-color: white;
-  
+    border-radius: 10px;
+    padding-right: 0em;
+    margin-left: 0px;
+    padding-top: 1em;
+    padding-left: 10px;
+    background-color: rgb(236, 223, 223);
 }
 
-.second-sub-main{
-  background-color: white;
+.second-sub-main {
+    border-radius: 10px;
+    background-color: rgb(236, 223, 223);
 }
+
 .second-sub-section {
-	border-radius: 10px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 10px;
-	margin-top: 2em;
-	padding-right: 2em;
-  background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 2em;
+    padding-right: 2em;
+    background-color: rgb(236, 223, 223);
 }
-img{
-  border-radius: 5px;
-}
-
-
 
 @media (min-width: 768px) {
-  .main-section {
-    width: 750px;
-	
-  }
+    .main-section {
+        width: 750px;
+    }
 }
+
 @media (min-width: 992px) {
-  .main-section {
-    width: 970px;
-  }
+    .main-section {
+        width: 970px;
+    }
 }
+
 @media (min-width: 1200px) {
-  .main-section {
-    width: 1170px;
-  }
+    .main-section {
+        width: 1170px;
+    }
 }
 
 .red-underline {
-  text-align: left;
-	text-decoration: underline;
-	font-weight: bolder;
-	color: #962327;
-	font-size: large;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #962327;
+    font-size: large;
 }
 
 .blue-strong {
-	color: rgb(0, 132, 255);
-	font-weight: bolder;
-	font-size: larger;
-	text-align: center;
+    color: rgb(0, 132, 255);
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
 }
 
 .blue {
-	color: rgb(0, 132, 255);
-	font-weight: bolder;
-	font-size: larger;
+    color: rgb(0, 132, 255);
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .cards-one {
-	padding: 0 30px;
-	display: grid;
+    padding: 0 30px;
+    display: grid;
 }
 
 .cards-two {
-	display: grid;
+    display: grid;
 }
 
 .cards-three {
-	max-width: 1200px;
-	display: grid;
+    max-width: 1200px;
+    display: grid;
 }
 
 .card {
-	border-radius: 10px;
-	padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .second-section {
-	/* width: 84%; */
-	margin-left: auto;
-	margin-right: auto;
+    /* width: 84%; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
-	background-color: #962327;
-	color: white;
-	padding: 0.5em 0.5em;
-	font-size: 150%;
-	font-weight: bold;
-	text-align: center;
-	border-radius: 5px;
-	margin-left: auto;
-	margin-right: auto;
+    background-color: #962327;
+    color: white;
+    padding: 0.5em 0.5em;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sub-heading {
-	font-weight: bold;
-	text-align: center;
-	border-radius: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: aliceblue;
-	padding: 0.5em 0.5em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    padding: 0.5em 0.5em;
 }
 
 .second-section li {
-	display: block;
-	padding: 10px;
-	margin-left: 0;
+    display: block;
+    padding: 10px;
+    margin-left: 0;
 }
 
 @media (min-width: 200px) {
-	.second-sub-section {
-		grid-template-columns:min-content;
-	}
+    .second-sub-section {
+        grid-template-columns: min-content;
+    }
 }
+
 @media (min-width: 400px) {
-	.first-section {
-		grid-template-columns: repeat(1, 1fr);
-	}
+    .first-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width: 900px) {
-	.first-section {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .first-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 500px) {
-	.second-sub-section {
-		grid-template-columns: repeat(1, 1fr);
-	}
+    .second-sub-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width: 900px) {
-	.second-sub-section {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .second-sub-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 600px) {
-	.cards-one {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .cards-one {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 900px) {
-	.cards-one {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .cards-one {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 600px) {
-	.cards-two {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .cards-two {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 900px) {
-	.cards-two {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .cards-two {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 600px) {
-	.cards-three {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .cards-three {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 900px) {
-	.cards-three {
-		grid-template-columns: repeat(4, 1fr);
-	}
+    .cards-three {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 @media screen and (min-width: 50em) {
-	.dataTable {
-		display: table;
-	}
-	.dataTable tbody {
-		display: table-row-group;
-	}
-	.dataTable thead tr,
-	.dataTable tbody tr {
-		display: table-row;
-	}
+    .dataTable {
+        display: table;
+    }
+    .dataTable tbody {
+        display: table-row-group;
+    }
+    .dataTable thead tr,
+    .dataTable tbody tr {
+        display: table-row;
+    }
+}
