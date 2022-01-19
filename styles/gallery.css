@@ -59,6 +59,9 @@ nav .items .item:hover{
   .gallary .image{
     width: calc(100% /3);
   }
+  #slider figure img{
+    height: 100%;
+  }
 }
 
 @media (max-width:800px) {
@@ -133,7 +136,9 @@ div#slider figure {
   font-size: 0;
   animation: 25s sliding ease infinite; 
 }
-
+#slider figure img{
+  height: 600px;
+}
 
 /* Slider indicator */
 .indicator{
