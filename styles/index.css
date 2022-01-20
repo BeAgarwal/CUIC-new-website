@@ -1,12 +1,12 @@
 .grid-container {
-    max-width: 90%;
+    max-width: 98%;
     margin: 0 auto;
     display: flex;
     margin-top: 2em;
 }
 
 .grid-child {
-    width: 25%;
+    width: 20%;
     padding-top: 10px;
     border: solid red 1px;
     background-color: rgb(245, 225, 225);

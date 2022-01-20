@@ -55,12 +55,22 @@ nav .items .item:hover{
   transform: scale(1.1);
 }
 
+
+#slider figure img{
+  height: 500px;
+}
+
+@media (max-width:1150px) {
+  #slider figure img{
+    height: 450px;
+  }
+}
 @media (max-width:1000px) {
   .gallary .image{
     width: calc(100% /3);
   }
   #slider figure img{
-    height: 100%;
+    height: 400px;
   }
 }
 
@@ -72,10 +82,17 @@ nav .items .item:hover{
   .gallary .image{
     width: calc(100% /2);
   }
+  #slider figure img{
+    height: 350px;
+  }
 }
+  
 @media (max-width:600px) {
   .gallary .image img{
     height: 100%;
+  } 
+  #slider figure img{
+    height: 300px;
   }
   nav .items{
     flex-wrap: wrap;
@@ -111,7 +128,7 @@ nav .items .item:hover{
 
 .auto-slider{
     position: relative;
-    width: 75%;
+    width: 85%;
     box-sizing: content-box;
     display: inline-block;
     padding: 10px 10px 20px;
@@ -136,9 +153,7 @@ div#slider figure {
   font-size: 0;
   animation: 25s sliding ease infinite; 
 }
-#slider figure img{
-  height: 600px;
-}
+
 
 /* Slider indicator */
 .indicator{
